@@ -7,17 +7,24 @@
             Para visualizar meus pedidos
 
 
-            Cenário 1:
-
+            Cenário: Login com Sucesso
+            
+            Dado que estou na pagina de login
             Quando eu digitar <usuario> e <senha> corretos
             Entao deve aparecer uma mensagem "Bem vindo usuario"
 
 
-            Cenário 2:
-
+            Cenário: Falha no login
+            
+            Dado que estou na pagina de login
             Quando eu digitar <usuario> ou <senha> incorretos
             Entao deve aparecer uma mensagem "Usuario ou senha invalidos"
 
+            Esquema de cenário:
+
+            Dado que estou na pagina de login
+            Quando eu digitar <usuario> ou <senha> 
+            Entao deve aparecer uma <mensagem>
 
             Exemplos:
 
